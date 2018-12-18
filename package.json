@@ -5,6 +5,7 @@
   "main": "functions/server.js",
   "scripts": {
     "build": "netlify-lambda build express",
+    "start:lambda": "netlify-lambda serve express",
     "start": "node server-local.js"
   },
   "repository": {
